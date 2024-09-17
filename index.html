@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>appie.com</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>hello</h1>
+    <header>
+        <nav class="bg-[#121133]">
+            <div class="container mx-auto flex flex-col md:flex-row justify-between py-3 px-10 gap-5">
+                <div class="flex flex-col md:flex-row justify-center items-center gap-10 pt-2">
+                    <div class="">
+                        <img class="w-20" src="./assets/logo-3.png" alt="">
+                    </div>
+                    <div>
+                        <ul class="flex  gap-3 text-white  ">
+                            <li class="hover:text-teal-200 cursor-pointer"><a href="#home">Home</a></li>
+                            <li class="hover:text-teal-200 cursor-pointer"><a href="#about">About</a></li>
+                            <li class="hover:text-teal-200 cursor-pointer"><a href="#services">Services</a></li>
+                            <li class="hover:text-teal-200 cursor-pointer"><a href="#blog">Blog</a></li>
+                            <li class="hover:text-teal-200 cursor-pointer"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="space-x-5 flex justify-center">
+                   <button class="text-white hover:text-teal-200 cursor-pointer">Login</button>
+                   <button class="bg-[#fe5545] py-2 px-3 rounded-lg text-white hover:text-cyan-600 cursor-pointer">Get started</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
